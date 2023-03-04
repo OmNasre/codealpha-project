@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(226,58,180,1) 0%, rgba(41,219,255,1) 95%); 
+}
+
+.navbar{
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+    list-style: none;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: white;
+    transition: .7s;
+}
+
+.navbar ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    height: 100vh;
+}
+
+.mainSec{
+    display: flex;
+    height: auto;
+    
+
+}
+
+.Imgside img{
+    height: 500px;
+    margin: 50px;
+}
+
+.textlorem {
+    margin-top: 50px;
+    margin-left: 10px;
+	line-height: 2;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 700px;
+    bottom: 100px;
+}
+.pic:hover{
+    scale: (0.75);
+    opacity: .9;
+    border: 10px;
+    padding: 10px;
+}
+.info{
+    width: 600px;
+    height: 400px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    height: 40vh;
+    color: rgb(196, 196, 196);;
+}
+
+.foot ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.foot a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: none;
+    line-height: 0.9cm;
+}
+
+.foot a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+    opacity: .5;
+}
+
+.foot p{
+    color: yellow;
+    opacity: .7;
+}
